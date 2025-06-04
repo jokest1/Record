@@ -1,0 +1,10 @@
+set(SUB_NAME "Common")
+
+# INTERFACE 表示只包含头文件的库
+add_library(${SUB_NAME} INTERFACE)
+
+target_include_directories(${SUB_NAME} 
+    PUBLIC INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+

@@ -1,0 +1,12 @@
+file(GLOB SOURCES CONFIGURE_DEPENDS "src/*.cpp")
+set(COMMON_HEAD_NAME "Common")
+add_library(DataRoom STATIC ${SOURCES})
+
+# 链接工具库并继承其包含路径
+target_link_libraries(DataRoom 
+    PUBLIC ${COMMON_HEAD_NAME}
+)
+
+target_include_directories(DataRoom
+    PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
+)

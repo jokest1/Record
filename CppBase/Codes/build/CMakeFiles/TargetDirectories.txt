@@ -1,0 +1,8 @@
+E:/Codes/Record/CppBase/Codes/build/CMakeFiles/main.dir
+E:/Codes/Record/CppBase/Codes/build/CMakeFiles/edit_cache.dir
+E:/Codes/Record/CppBase/Codes/build/CMakeFiles/rebuild_cache.dir
+E:/Codes/Record/CppBase/Codes/build/Common/CMakeFiles/edit_cache.dir
+E:/Codes/Record/CppBase/Codes/build/Common/CMakeFiles/rebuild_cache.dir
+E:/Codes/Record/CppBase/Codes/build/DataRoom/CMakeFiles/DataRoom.dir
+E:/Codes/Record/CppBase/Codes/build/DataRoom/CMakeFiles/edit_cache.dir
+E:/Codes/Record/CppBase/Codes/build/DataRoom/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+project(Demos)
+
+set(SUB_NAME "DataRoom")
+set(COMMON_HEAD_NAME "Common")
+
+message(${SUB_NAME})
+message(${COMMON_HEAD_NAME})
+
+add_subdirectory(${COMMON_HEAD_NAME})
+add_subdirectory(${SUB_NAME})
+
+add_executable(main 
+    main.cpp
+)
+
+target_link_libraries(main
+    PUBLIC ${SUB_NAME}
+)

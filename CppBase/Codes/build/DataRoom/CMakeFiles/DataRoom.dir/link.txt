@@ -1,0 +1,2 @@
+E:\Develop\Packages\Qt\Tools\mingw810_64\bin\ar.exe qc libDataRoom.a CMakeFiles/DataRoom.dir/src/Test.cpp.obj
+E:\Develop\Packages\Qt\Tools\mingw810_64\bin\ranlib.exe libDataRoom.a
