@@ -2,11 +2,11 @@
 	"globsDependent" : 
 	[
 		{
-			"expression" : "E:/Codes/Record/CppBase/Codes/DataRoom/src/*.cpp",
+			"expression" : "E:/Codes/Record/CppBase/Codes/Templete/src/*.cpp",
 			"listDirectories" : true,
 			"paths" : 
 			[
-				"E:/Codes/Record/CppBase/Codes/DataRoom/src/Test.cpp"
+				"E:/Codes/Record/CppBase/Codes/Templete/src/Test.cpp"
 			]
 		}
 	],
@@ -230,7 +230,7 @@
 			"path" : "Common/CmakeLists.txt"
 		},
 		{
-			"path" : "DataRoom/CmakeLists.txt"
+			"path" : "Templete/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

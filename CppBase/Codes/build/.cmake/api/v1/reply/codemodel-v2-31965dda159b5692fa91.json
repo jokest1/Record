@@ -35,15 +35,15 @@
 					"source" : "Common"
 				},
 				{
-					"build" : "DataRoom",
-					"jsonFile" : "directory-DataRoom-Debug-dd9be727400d55ce3695.json",
+					"build" : "Templete",
+					"jsonFile" : "directory-Templete-Debug-cbe8656d78b054d578ef.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "DataRoom",
+					"source" : "Templete",
 					"targetIndexes" : 
 					[
 						0
@@ -72,15 +72,15 @@
 			[
 				{
 					"directoryIndex" : 2,
-					"id" : "DataRoom::@ff4a08f87a23252cee1c",
-					"jsonFile" : "target-DataRoom-Debug-036785585c59d9c30c89.json",
-					"name" : "DataRoom",
+					"id" : "Templete::@ece739de502f712685d3",
+					"jsonFile" : "target-Templete-Debug-989a05d0cc3386921f78.json",
+					"name" : "Templete",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-bfa20442f732796c7c93.json",
+					"jsonFile" : "target-main-Debug-f1526126b691a2f5f651.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}

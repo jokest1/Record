@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "DataRoom/libDataRoom.a"
+			"path" : "Templete/libTemplete.a"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"DataRoom/CMakeLists.txt"
+			"Templete/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,19 +27,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 6,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -50,14 +50,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu++2a"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "E:/Codes/Record/CppBase/Codes/DataRoom/include"
+					"path" : "E:/Codes/Record/CppBase/Codes/Templete/include"
 				},
 				{
 					"backtrace" : 3,
@@ -65,19 +65,27 @@
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "23"
+			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "DataRoom::@ff4a08f87a23252cee1c",
-	"name" : "DataRoom",
-	"nameOnDisk" : "libDataRoom.a",
+	"id" : "Templete::@ece739de502f712685d3",
+	"name" : "Templete",
+	"nameOnDisk" : "libTemplete.a",
 	"paths" : 
 	{
-		"build" : "DataRoom",
-		"source" : "DataRoom"
+		"build" : "Templete",
+		"source" : "Templete"
 	},
 	"sourceGroups" : 
 	[
@@ -94,7 +102,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DataRoom/src/Test.cpp",
+			"path" : "Templete/src/Test.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu++2a"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "E:/Codes/Record/CppBase/Codes/DataRoom/include"
+					"path" : "E:/Codes/Record/CppBase/Codes/Templete/include"
 				},
 				{
 					"backtrace" : 2,
@@ -60,6 +60,14 @@
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "23"
+			},
 			"sourceIndexes" : 
 			[
 				0
@@ -70,7 +78,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "DataRoom::@ff4a08f87a23252cee1c"
+			"id" : "Templete::@ece739de502f712685d3"
 		}
 	],
 	"id" : "main::@6890427a1f51a3e7e1df",
@@ -88,7 +96,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "DataRoom\\libDataRoom.a",
+				"fragment" : "Templete\\libTemplete.a",
 				"role" : "libraries"
 			},
 			{

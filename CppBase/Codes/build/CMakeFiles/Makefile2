@@ -64,24 +64,24 @@ CMAKE_BINARY_DIR = E:\Codes\Record\CppBase\Codes\build
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
 all: Common/all
-all: DataRoom/all
+all: Templete/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/main.dir/codegen
 codegen: Common/codegen
-codegen: DataRoom/codegen
+codegen: Templete/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: Common/preinstall
-preinstall: DataRoom/preinstall
+preinstall: Templete/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
 clean: Common/clean
-clean: DataRoom/clean
+clean: Templete/clean
 .PHONY : clean
 
 #=============================================================================
@@ -104,29 +104,29 @@ Common/clean:
 .PHONY : Common/clean
 
 #=============================================================================
-# Directory level rules for directory DataRoom
+# Directory level rules for directory Templete
 
 # Recursive "all" directory target.
-DataRoom/all: DataRoom/CMakeFiles/DataRoom.dir/all
-.PHONY : DataRoom/all
+Templete/all: Templete/CMakeFiles/Templete.dir/all
+.PHONY : Templete/all
 
 # Recursive "codegen" directory target.
-DataRoom/codegen: DataRoom/CMakeFiles/DataRoom.dir/codegen
-.PHONY : DataRoom/codegen
+Templete/codegen: Templete/CMakeFiles/Templete.dir/codegen
+.PHONY : Templete/codegen
 
 # Recursive "preinstall" directory target.
-DataRoom/preinstall:
-.PHONY : DataRoom/preinstall
+Templete/preinstall:
+.PHONY : Templete/preinstall
 
 # Recursive "clean" directory target.
-DataRoom/clean: DataRoom/CMakeFiles/DataRoom.dir/clean
-.PHONY : DataRoom/clean
+Templete/clean: Templete/CMakeFiles/Templete.dir/clean
+.PHONY : Templete/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: DataRoom/CMakeFiles/DataRoom.dir/all
+CMakeFiles/main.dir/all: Templete/CMakeFiles/Templete.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Codes\Record\CppBase\Codes\build\CMakeFiles --progress-num=3,4 "Built target main"
@@ -155,36 +155,36 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target DataRoom/CMakeFiles/DataRoom.dir
+# Target rules for target Templete/CMakeFiles/Templete.dir
 
 # All Build rule for target.
-DataRoom/CMakeFiles/DataRoom.dir/all:
-	$(MAKE) $(MAKESILENT) -f DataRoom\CMakeFiles\DataRoom.dir\build.make DataRoom/CMakeFiles/DataRoom.dir/depend
-	$(MAKE) $(MAKESILENT) -f DataRoom\CMakeFiles\DataRoom.dir\build.make DataRoom/CMakeFiles/DataRoom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Codes\Record\CppBase\Codes\build\CMakeFiles --progress-num=1,2 "Built target DataRoom"
-.PHONY : DataRoom/CMakeFiles/DataRoom.dir/all
+Templete/CMakeFiles/Templete.dir/all:
+	$(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/depend
+	$(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Codes\Record\CppBase\Codes\build\CMakeFiles --progress-num=1,2 "Built target Templete"
+.PHONY : Templete/CMakeFiles/Templete.dir/all
 
 # Build rule for subdir invocation for target.
-DataRoom/CMakeFiles/DataRoom.dir/rule: cmake_check_build_system
+Templete/CMakeFiles/Templete.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Codes\Record\CppBase\Codes\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataRoom/CMakeFiles/DataRoom.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete/CMakeFiles/Templete.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Codes\Record\CppBase\Codes\build\CMakeFiles 0
-.PHONY : DataRoom/CMakeFiles/DataRoom.dir/rule
+.PHONY : Templete/CMakeFiles/Templete.dir/rule
 
 # Convenience name for target.
-DataRoom: DataRoom/CMakeFiles/DataRoom.dir/rule
-.PHONY : DataRoom
+Templete: Templete/CMakeFiles/Templete.dir/rule
+.PHONY : Templete
 
 # codegen rule for target.
-DataRoom/CMakeFiles/DataRoom.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f DataRoom\CMakeFiles\DataRoom.dir\build.make DataRoom/CMakeFiles/DataRoom.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Codes\Record\CppBase\Codes\build\CMakeFiles --progress-num=1,2 "Finished codegen for target DataRoom"
-.PHONY : DataRoom/CMakeFiles/DataRoom.dir/codegen
+Templete/CMakeFiles/Templete.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Codes\Record\CppBase\Codes\build\CMakeFiles --progress-num=1,2 "Finished codegen for target Templete"
+.PHONY : Templete/CMakeFiles/Templete.dir/codegen
 
 # clean rule for target.
-DataRoom/CMakeFiles/DataRoom.dir/clean:
-	$(MAKE) $(MAKESILENT) -f DataRoom\CMakeFiles\DataRoom.dir\build.make DataRoom/CMakeFiles/DataRoom.dir/clean
-.PHONY : DataRoom/CMakeFiles/DataRoom.dir/clean
+Templete/CMakeFiles/Templete.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/clean
+.PHONY : Templete/CMakeFiles/Templete.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

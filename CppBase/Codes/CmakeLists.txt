@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 project(Demos)
 
-set(SUB_NAME "DataRoom")
+set(CMAKE_CXX_STANDARD 23)
+
+set(SUB_NAME "Templete")
 set(COMMON_HEAD_NAME "Common")
 
 message(${SUB_NAME})

@@ -4,7 +4,7 @@
 # compile CXX with E:/Develop/Packages/Qt/Tools/mingw810_64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/main.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/Templete.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -std=gnu++2a
 

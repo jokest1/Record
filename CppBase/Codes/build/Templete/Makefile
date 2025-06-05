@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Codes\Record\CppBase\Codes\build\CMakeFiles E:\Codes\Record\CppBase\Codes\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\Codes\Record\CppBase\Codes\build\CMakeFiles E:\Codes\Record\CppBase\Codes\build\Templete\\CMakeFiles\progress.marks
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Codes\Record\CppBase\Codes\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,69 +102,57 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P E:\Codes\Record\CppBase\Codes\build\CMakeFiles\VerifyGlobs.cmake
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(CMAKE_COMMAND) -P E:\Codes\Record\CppBase\Codes\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
+# Convenience name for target.
+Templete/CMakeFiles/Templete.dir/rule:
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete/CMakeFiles/Templete.dir/rule
+.PHONY : Templete/CMakeFiles/Templete.dir/rule
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named Templete
-
-# Build rule for target.
-Templete: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templete
+# Convenience name for target.
+Templete: Templete/CMakeFiles/Templete.dir/rule
 .PHONY : Templete
 
 # fast build rule for target.
 Templete/fast:
-	$(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/build
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/build
 .PHONY : Templete/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/Test.obj: src/Test.cpp.obj
+.PHONY : src/Test.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/Test.cpp.obj:
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/src/Test.cpp.obj
+.PHONY : src/Test.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Test.i: src/Test.cpp.i
+.PHONY : src/Test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Test.cpp.i:
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/src/Test.cpp.i
+.PHONY : src/Test.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Test.s: src/Test.cpp.s
+.PHONY : src/Test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Test.cpp.s:
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(MAKE) $(MAKESILENT) -f Templete\CMakeFiles\Templete.dir\build.make Templete/CMakeFiles/Templete.dir/src/Test.cpp.s
+.PHONY : src/Test.cpp.s
 
 # Help Target
 help:
@@ -175,10 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Templete
-	@echo ... main
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Test.obj
+	@echo ... src/Test.i
+	@echo ... src/Test.s
 .PHONY : help
 
 
@@ -190,7 +177,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P E:\Codes\Record\CppBase\Codes\build\CMakeFiles\VerifyGlobs.cmake
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(CMAKE_COMMAND) -P E:\Codes\Record\CppBase\Codes\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d E:\Codes\Record\CppBase\Codes\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

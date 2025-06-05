@@ -9,7 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "E:/Codes/Record/CppBase/Codes/CMakeLists.txt"
   "E:/Codes/Record/CppBase/Codes/Common/CMakeLists.txt"
-  "E:/Codes/Record/CppBase/Codes/DataRoom/CMakeLists.txt"
+  "E:/Codes/Record/CppBase/Codes/Templete/CMakeLists.txt"
   "CMakeFiles/3.31.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.3/CMakeRCCompiler.cmake"
@@ -60,11 +60,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Common/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "DataRoom/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Templete/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "DataRoom/CMakeFiles/DataRoom.dir/DependInfo.cmake"
+  "Templete/CMakeFiles/Templete.dir/DependInfo.cmake"
   )

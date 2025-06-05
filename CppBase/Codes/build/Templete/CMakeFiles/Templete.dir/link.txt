@@ -1,0 +1,2 @@
+E:\Develop\Packages\Qt\Tools\mingw810_64\bin\ar.exe qc libTemplete.a CMakeFiles/Templete.dir/src/Test.cpp.obj
+E:\Develop\Packages\Qt\Tools\mingw810_64\bin\ranlib.exe libTemplete.a
